@@ -1,0 +1,128 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: white;
+    color: black;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Add padding to containers */
+      .container {
+        padding: 16px;
+        background-color: white;
+      }
+      
+      /* Full-width input fields */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      
+     
+      .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      a {
+        color: dodgerblue;
+      }
+  
+      .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+      }
+
+    h1{
+        text-align: center;
+    }
+    .footer{
+      float: left;
+      width: 100%;
+      height: 0 auto;
+      display: block;
+      padding: 5px;
+      margin-left: -5px;
+      
+  }
+  .bar{
+    display: block;
+    text-decoration: none;
+    margin-left: 690px;
+  }
+  .footer{
+    width: 102%;
+  }
+  .bar{
+  width: 100%;
+  margin-left: 46%;
+  margin-right: 700px;
+  }
+  .registerbtn{
+    width: 450px;
+    margin-left: 550px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .footer{
+      width: 100%;
+    }
+    .bar{
+    width: 100%;
+    margin-left: 32%;
+    margin-right: 95px;
+    }
+    .registerbtn{
+      width: 100%;
+      margin-left: -3.5px;
+    }
+  }
